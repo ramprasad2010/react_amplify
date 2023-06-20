@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-restauthpoc-dev-152111-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490945484896:role/amplify-restauthpoc-dev-152111-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490945484896:role/amplify-restauthpoc-dev-152111-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-restauthpoc-dev-152111-deployment",
+      "UnauthRoleName": "amplify-restauthpoc-dev-152111-unauthRole",
+      "StackName": "amplify-restauthpoc-dev-152111",
+      "StackId": "arn:aws:cloudformation:eu-central-1:490945484896:stack/amplify-restauthpoc-dev-152111/53c97e70-0f6d-11ee-8383-0a1a7287cf8c",
+      "AmplifyAppId": "d3a5gjfszygkk2"
+    },
+    "categories": {
+      "auth": {
+        "restauthpoccdf29d46": {}
+      },
+      "function": {
+        "restauthpoc": {}
+      }
+    }
+  }
+}
