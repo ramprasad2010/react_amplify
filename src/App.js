@@ -12,7 +12,7 @@ function App() {
             Authorization: 'mycustomheader'
         }
     };
-      const data = API.get('restauthpoc','/test')
+      const data = API.get('restauthpoc','/test',request)
       console.log({data})
   }
   return (
