@@ -9,7 +9,7 @@ function App() {
       const token = user.signInUserSession.idToken.jwtToken;
       const request = {
         headers: {
-            Authorization: token
+            Authorization: 'mycustomheader'
         }
     };
       const data = API.get('restauthpoc','/test')
