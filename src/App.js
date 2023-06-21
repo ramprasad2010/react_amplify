@@ -12,7 +12,7 @@ function App() {
             Authorization: token
         }
     };
-      const data = API.get('restauthpoc','/test',request)
+      const data = API.get('restauthpoc','/test')
       console.log({data})
   }
   return (
