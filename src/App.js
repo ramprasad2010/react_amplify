@@ -7,12 +7,12 @@ function App() {
   async function callapi(){
       const user = await Auth.currentAuthenticatedUser()
       const token = user.signInUserSession.idToken.jwtToken;
-      const request = {
-        headers: {
+      const headers = {
+     
             authorizationtoken: 'mycustomheader'
-        }
+        
     };
-      const data = API.get('restauthpoc','/test',request)
+      const data = API.get('restauthpoc','/test',headers)
       console.log({data})
   }
   return (
