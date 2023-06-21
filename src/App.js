@@ -9,7 +9,7 @@ function App() {
       const token = user.signInUserSession.idToken.jwtToken;
       const headers = {
      
-            authorizationtoken: "mycustomheader",
+            "authorizationtoken": "mycustomheader",
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Headers": "*"
         
