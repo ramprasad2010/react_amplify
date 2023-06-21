@@ -5,7 +5,7 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 
 function App() {
   async function callapi(){
-      const data = API.get('','/test')
+      const data = API.get('restauthpoc','/test')
       console.log({data})
   }
   return (
