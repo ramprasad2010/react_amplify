@@ -5,7 +5,14 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 
 function App() {
   async function callapi(){
-      const data = API.get('restauthpoc','/test')
+      const user = await Auth.currentAuthenticatedUser()
+      const token = user.signInUserSession.idToken.jwtToken;
+      const request = {
+        headers: {
+            Authorization: token
+        }
+    };
+      const data = API.get('restauthpoc','/test',request)
       console.log({data})
   }
   return (
