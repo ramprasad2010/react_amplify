@@ -9,13 +9,20 @@
       "UnauthRoleName": "amplify-restauthpoc-dev-152111-unauthRole",
       "StackName": "amplify-restauthpoc-dev-152111",
       "StackId": "arn:aws:cloudformation:eu-central-1:490945484896:stack/amplify-restauthpoc-dev-152111/53c97e70-0f6d-11ee-8383-0a1a7287cf8c",
-      "AmplifyAppId": "d3a5gjfszygkk2"
+      "AmplifyAppId": "d3a5gjfszygkk2",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-restauthpoc-dev-152111-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
         "restauthpoccdf29d46": {}
       },
       "function": {
+        "restauthpoc": {
+          "deploymentBucketName": "amplify-restauthpoc-dev-152111-deployment",
+          "s3Key": "amplify-builds/restauthpoc-41336770744d302f5252-build.zip"
+        }
+      },
+      "api": {
         "restauthpoc": {}
       }
     }
